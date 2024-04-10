@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -17,7 +18,7 @@ public class Chopper : MonoBehaviour
     void Update()
     {
         moveDirection = inputLeftStick.action.ReadValue<Vector2>();
-
+        
         float rotateY = inputRightStick.action.ReadValue<Vector2>().x;
         if (rotateY != 0f) transform.Rotate(0f, rotateY * rotateSpeed * Time.deltaTime, 0f);
 
@@ -36,4 +37,27 @@ public class Chopper : MonoBehaviour
         Vector3 upwardDirection = transform.up * altitudeDirection * altitudeStrength * Time.deltaTime;
         rigidBody.AddForce(upwardDirection, ForceMode.Force);
     }
+
+    // ControlerButtonsMapper callbacks
+    //public void OnPrimaryThumbstickUp()
+    //{
+    //    //Debug.Log("OnPrimaryThumbstickUp......");
+    //    //moveDirectionY = 1;
+    //}
+
+    //public void OnPrimaryThumbstickDown()
+    //{
+    //    //Debug.Log("OnPrimaryThumbstickDown......");
+    //    //moveDirectionY = -1;
+    //}
+
+    //public void OnPrimaryThumbstickRight()
+    //{
+    //    //moveDirectionX = 1;
+    //}
+
+    //public void OnPrimaryThumbstickLeft()
+    //{
+    //    //moveDirectionX = -1;
+    //}
 }

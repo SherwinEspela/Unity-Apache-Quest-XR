@@ -357,108 +357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChopperApacheMain
       objectReference: {fileID: 0}
-    - target: {fileID: 857554571776535127, guid: c48a332f8f47ec748bc61739a343481b,
+    - target: {fileID: 3086546431059360164, guid: c48a332f8f47ec748bc61739a343481b,
         type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 857554571776535127, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714180475856657207, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: inputMove
-      value: 
-      objectReference: {fileID: -539086860635320547, guid: d1551339b0995d74392252d588f8588b,
-        type: 3}
-    - target: {fileID: 2714180475856657207, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714180475856657207, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: rigidBody
-      value: 
-      objectReference: {fileID: 1493033749}
-    - target: {fileID: 2714180475856657207, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: rotateSpeed
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714180475856657207, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: inputLeftStick
-      value: 
-      objectReference: {fileID: -539086860635320547, guid: d1551339b0995d74392252d588f8588b,
-        type: 3}
-    - target: {fileID: 2714180475856657207, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: inputRightStick
-      value: 
-      objectReference: {fileID: 5583483802157774143, guid: d1551339b0995d74392252d588f8588b,
-        type: 3}
-    - target: {fileID: 2714180475856657207, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: altitudeStrength
-      value: 350
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714180475856657207, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: altitudeMultiplier
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5077350128840872400, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.11099857
-      objectReference: {fileID: 0}
-    - target: {fileID: 5077350128840872400, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 0.28997773
-      objectReference: {fileID: 0}
-    - target: {fileID: 5077350128840872400, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: m_Center.x
-      value: -0.0008920431
-      objectReference: {fileID: 0}
-    - target: {fileID: 5077350128840872400, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: m_Center.z
-      value: -0.04897827
-      objectReference: {fileID: 0}
-    - target: {fileID: 5147735343460294623, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5147735343460294623, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5147735343460294623, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5147735343460294623, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5147735343460294623, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 5147735343460294623, guid: c48a332f8f47ec748bc61739a343481b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      propertyPath: m_DefaultControlScheme
+      value: Quest3
       objectReference: {fileID: 0}
     - target: {fileID: 5494630516607853222, guid: c48a332f8f47ec748bc61739a343481b,
         type: 3}
@@ -515,12 +417,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c48a332f8f47ec748bc61739a343481b, type: 3}
---- !u!54 &1493033749 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 857554571776535127, guid: c48a332f8f47ec748bc61739a343481b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1493033745}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1589918158
 GameObject:
   m_ObjectHideFlags: 0
