@@ -360,7 +360,7 @@ PrefabInstance:
     - target: {fileID: 857554571776535127, guid: c48a332f8f47ec748bc61739a343481b,
         type: 3}
       propertyPath: m_UseGravity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 857554571776535127, guid: c48a332f8f47ec748bc61739a343481b,
         type: 3}
@@ -400,6 +400,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5583483802157774143, guid: d1551339b0995d74392252d588f8588b,
         type: 3}
+    - target: {fileID: 2714180475856657207, guid: c48a332f8f47ec748bc61739a343481b,
+        type: 3}
+      propertyPath: altitudeStrength
+      value: 350
+      objectReference: {fileID: 0}
     - target: {fileID: 2714180475856657207, guid: c48a332f8f47ec748bc61739a343481b,
         type: 3}
       propertyPath: altitudeMultiplier

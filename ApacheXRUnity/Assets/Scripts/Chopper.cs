@@ -9,10 +9,10 @@ public class Chopper : MonoBehaviour
 
     [SerializeField] float moveSpeed = 15.0f;
     [SerializeField] float rotateSpeed = 15.0f;
-    [SerializeField] float altitudeReducer = 50f;
+    [SerializeField] float altitudeStrength = 350f;
 
     private Vector2 moveDirection;
-    private float altitude;
+    private float altitudeDirection;
 
     void Update()
     {
@@ -21,7 +21,7 @@ public class Chopper : MonoBehaviour
         float rotateY = inputRightStick.action.ReadValue<Vector2>().x;
         if (rotateY != 0f) transform.Rotate(0f, rotateY * rotateSpeed * Time.deltaTime, 0f);
 
-        altitude = inputRightStick.action.ReadValue<Vector2>().y ;
+        altitudeDirection = inputRightStick.action.ReadValue<Vector2>().y ;
     }
 
     private void FixedUpdate()
@@ -32,5 +32,8 @@ public class Chopper : MonoBehaviour
         
         Vector3 direction = forwardDirection + rightDirection;
         rigidBody.velocity = direction.normalized;
+
+        Vector3 upwardDirection = transform.up * altitudeDirection * altitudeStrength * Time.deltaTime;
+        rigidBody.AddForce(upwardDirection, ForceMode.Force);
     }
 }
