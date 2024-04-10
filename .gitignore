@@ -70,3 +70,17 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+ApacheXRUnity/Assets/Mech_Constructor_Spiders/
+ApacheXRUnity/Assets/Oculus/
+ApacheXRUnity/Assets/Plugins/
+ApacheXRUnity/Assets/VigilanteAssets/
+ApacheXRUnity/Assets/XR/
+ApacheXRUnity/Assets/TutorialInfo/
+ApacheXRUnity/Library/
+ApacheXRUnity/UserSettings/
+ApacheXRUnity/obj/
+ApacheXRUnity/Logs/
+ApacheXRUnity/ProjectSettings/
+ApacheXRUnity/.vsconfig
+ApacheXRUnity/Assets/Settings/
